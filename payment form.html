@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>payment form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="main_heading"> PAYMENT FORM</h1>
+            <h2> CONTACT DETAILS</h2>
+            <p> Name : <input type="text"  name="name" required></p>
+            <legend> SELECT YOUR GENDER  </legend>
+            <fieldset>
+                <p> MALE: <input type="radio" name="gender" id="" required>
+            FEMALE: <input type="radio" name="gender" id="" required></p>
+        </fieldset>
+        <p>Address: <input type="textarea" name ="address" id="" cols="100" rows="25"> </input:textarea></p>
+        <p> EMAIL: <input type="email" name="mail" id=""> </p>
+        <p> PINCODE: <input type="number" name="pin" id=""></p>
+        <h1>PAYMENT DETAILS </h1>
+        <p> CARD TYPE :
+            <select name ="card_type" id ="card_type" required >
+                <option value=""> --select your card type--</option>
+                <option value="visa"> VISA</option>
+                <option value="master_card"> MASTER CARD</option>
+                <option value="upi"> UPI</option>
+                
+            </select>
+
+        </p>
+        <p> CARD NUMBER: <input type="number" name="cardnum" id="cardnum" required></p>
+        <p> EXPIRIY DATE: <input type="date" name="expiriy" id="" required></p>
+        <p>CVV: <input type="password" name="cvv" id="cvv" required></p>
+        <button type="submit"> PAY</button>
+        <script src="script.js"></script>
+
+
+    </form>
+</div>
+    
+</body>
+</html>
